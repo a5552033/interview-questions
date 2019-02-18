@@ -112,7 +112,8 @@ void Test3()
 	char* text = "Hello World!";
 
 	CMyString str1(text);
-	CMyString str2, str3;
+	CMyString str2;
+	CMyString str2;
 	str3 = str2 = str1;
 
 	printf("The expected result is:%s.\n", text);
